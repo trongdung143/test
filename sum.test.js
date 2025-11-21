@@ -1,7 +1,7 @@
 const sum = require('./sum');
 
 test('adds 3 + 5 to equal 8', () => {
-  expect(sum(3, 5)).toBe(36);
+  expect(sum(3, 5)).toBe(8);
 });
 
 test('adds 0 + 0 to equal 0', () => {
