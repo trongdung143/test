@@ -1,0 +1,13 @@
+{
+    "name": "cicd-workshop",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "jest",
+      "check": "npm test",
+      "build": "mkdir -p dist && cp index.html dist/"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "jest": "^29.0.0"
+    }
+  }
